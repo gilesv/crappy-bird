@@ -1,9 +1,9 @@
 function Counter() {
 	this.points = 0;
 	this.show = function() {
-		textSize(32);
+		textSize(40);
 		fill(255);
-		text(this.points, (width/2)-16, 200);
+		text(this.points, (width/2)-20, 200);
 	}
 	this.update = function() {
 		this.points += 1;
